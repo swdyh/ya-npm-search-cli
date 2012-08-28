@@ -1,0 +1,20 @@
+{
+    "name": "ya-npm-search",
+    "version": "0.0.1",
+    "description": "command line interface for ya-npm-search.herokuapp.com",
+    "keywords": [
+        "npm",
+        "search"
+    ],
+    "dependencies": {
+        "request": "*",
+        "nopt": "*"
+    },
+    "engines": {
+        "node": "0.8.x",
+        "npm":  "1.1.x"
+    },
+    "bin": { "ya-npm-search": "./ya-npm-search-cli.js" },
+    "author": "swdyh",
+    "license": "Apache License Version 2.0"
+}
